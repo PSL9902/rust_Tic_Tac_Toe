@@ -1,0 +1,3 @@
+[langs]
+ru = {"team" = "сторона", "table" = "таблица", "input number" = "введите число", "Error" = "Ошибка", "win" = "победил", "nobody" = "никто"}
+en = {"table" = "table", "team" = "side", "input_number" = "input number", "Error" = "Error", "win" = "win", "nobody" = "nobody"}

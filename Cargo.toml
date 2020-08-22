@@ -1,0 +1,18 @@
+[package]
+name = "tictactoe"
+version = "0.1.0"
+authors = ["PSL"]
+edition = "2018"
+
+[profile.dev]
+opt-level = "s"
+lto = true
+#codegen-units = 1
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+
+[dependencies]
+localizer = "*"
