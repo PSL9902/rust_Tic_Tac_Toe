@@ -9,6 +9,8 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 [[package]]
 name = "localizer"
 version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b339c922780b406b6de28dff00d39b76a1311c71b33bc9ad451576c667a0d4d1"
 dependencies = [
  "lazy_static",
  "serde",
@@ -22,7 +24,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e54c9a88f2da7238af84b5101443f0c0d0a3bbdc455e34a5c9497b1903ed55d5"
 
 [[package]]
-name = "tictactoi"
+name = "tictactoe"
 version = "0.1.0"
 dependencies = [
  "localizer",
